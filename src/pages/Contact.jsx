@@ -89,7 +89,7 @@ const Contact = () => {
               type='text'
               name='name'
               className='input'
-              placeholder='John'
+              placeholder='Pappu'
               required
               value={form.name}
               onChange={handleChange}
@@ -103,7 +103,7 @@ const Contact = () => {
               type='email'
               name='email'
               className='input'
-              placeholder='John@gmail.com'
+              placeholder='BagadBilla@gmail.com'
               required
               value={form.email}
               onChange={handleChange}
@@ -117,7 +117,7 @@ const Contact = () => {
               name='message'
               rows='4'
               className='textarea'
-              placeholder='Write your thoughts here...'
+              placeholder='My actual email is connected. Dont spam me...'
               value={form.message}
               onChange={handleChange}
               onFocus={handleFocus}
