@@ -1,4 +1,5 @@
 import {NavLink} from 'react-router-dom'
+import DarkModeToggle from './DarkModeToggle/DarkModeToggle'
 const Navbar = () => {
   return (
     <header className="header">
@@ -12,6 +13,7 @@ const Navbar = () => {
             <NavLink to="/projects" className={({isActive}) => isActive ? 'text-blue-500' : 'text-black'}>
             Projects
             </NavLink> 
+            <DarkModeToggle />
         </nav>
     </header>
   )

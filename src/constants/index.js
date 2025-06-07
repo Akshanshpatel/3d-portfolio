@@ -26,6 +26,7 @@ import {
     typescript,
 } from "../assets/icons";
 
+
 export const skills = [
     {
         imageUrl: css,
@@ -168,7 +169,7 @@ export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: '/contact',
+        link: 'https://www.youtube.com/watch?v=P9cNPGPRfXA',
     },
     {
         name: 'GitHub',
